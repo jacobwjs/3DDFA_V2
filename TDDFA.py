@@ -10,7 +10,7 @@ import torch
 from torchvision.transforms import Compose
 import torch.backends.cudnn as cudnn
 
-import models
+import models_3ddfa
 from bfm import BFMModel
 from utils.io import _load
 from utils.functions import (
